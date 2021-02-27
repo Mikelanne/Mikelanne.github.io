@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a Rails cookbook app"
-date:       2021-02-27 21:08:32 +0000
+date:       2021-02-27 16:08:32 -0500
 permalink:  building_a_rails_cookbook_app
 ---
 
@@ -120,7 +120,7 @@ Nested routes can be confusing, so be sure to check out the [API Dock](https://g
 
 ## Final Thoughts
 
-This project can be overwhelming. As long as you take it step by step, using the resources you have within Flatiron as well as our friend Google, you will be able to build a fully functioning Rails app in no time. Don't forget to ultilize stylesheets to make this project your own! Have fun with it and reach out for help when you need it. Your cohert mates are there for you, as well as your instructor. And don't forget to get that extra confidence boost from your Education Coach when you need it! Happy coding!
+This project can be overwhelming. As long as you take it step by step, using the resources you have within Flatiron as well as our friend Google, you will be able to build a fully functioning Rails app in no time. Don't forget to ultilize stylesheets to make this project your own! Have fun with it and reach out for help when you need it. Your cohert mates are there for you, as well as your Cohert Lead. And don't forget to get that extra confidence boost from your Education Coach when you need it! Happy coding!
 
 
 
