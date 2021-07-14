@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What's the deal with Props and State in React?"
-date:       2021-07-14 17:20:00 +0000
+date:       2021-07-14 13:20:00 -0400
 permalink:  whats_the_deal_with_props_and_state_in_react
 ---
 
@@ -20,18 +20,18 @@ const water = "Water every 1-2 weeks"
 const light = "Bright, indirect light"
 const difficulty = "Beginner"
 
-     render(){
-		      return(
-					     <div>
-							 <Plant
-							      name={this.name}
-										water={this.water}
-										light={this.light}
-										difficulty={this.difficulty}
-							 />
-							 </div>
-					)
-			}
+   render(){
+		 return(
+			<div>
+			 <Plant
+				name={this.name}
+				water={this.water}
+				light={this.light}
+				difficulty={this.difficulty}
+			/>
+		 </div>
+		)
+	}
 ```
 
 Props come from the Parent Component, in this case the PlantsContainer, and are sent to the Child Component, in this case the Plant component. Once they're in the Child Component, they cannot be changed. Don't touch 'em! The Props can be used to display data in the child component, but that's it. How would you display them? Let's see.
@@ -39,16 +39,16 @@ Props come from the Parent Component, in this case the PlantsContainer, and are 
 ```
 const Plant = (props) => {
 
-     return(
-		      <div>
-					    <h1>{this.props.name}</h1>
-							<p>
-							        Water: {this.props.water}
-							        Light: {this.props.light}
-							        Difficulty: {this.props.difficulty} 
-							</p>
-				)
-	}
+  return(
+	 <div>
+	 <h1>{this.props.name}</h1>
+	 <p>
+		Water: {this.props.water}
+		Light: {this.props.light}
+		Difficulty: {this.props.difficulty} 
+	 </p>
+ )	
+}
 ```
 
 So that covers props, but what if we *want* to change the properties of your component? That's where state comes in. 
@@ -64,24 +64,24 @@ So, how do we set our component up to start out with a plant that is marked aliv
 ```
 const Plant = (props) => {
 
-    constructor() {
-       super()
-       this.state = {
-          health: "alive"
-        }
-    }
+ constructor() {
+  super()
+  this.state = {
+  health: "alive"
+  }
+}
 
-     return(
-		      <div>
-					    <h1>{this.props.name}</h1>
-							<p>
-							        Water: {this.props.water}
-							        Light: {this.props.light}
-							        Difficulty: {this.props.difficulty} 
-							</p>
-							<button>I've Given Up</button>
-				)
-	}
+ return(
+	<div>
+	<h1>{this.props.name}</h1>
+	<p>
+		Water: {this.props.water}
+		Light: {this.props.light}
+		Difficulty: {this.props.difficulty} 
+	</p>
+	<button>I've Given Up</button>
+	)
+}
 ```
 
 Okay, so now we have our initial state which adds the key value pair representing that the plant is alive. We've also added a button that we can click to change this state but it doesn't do anything right now! It's just a button. So, let's change that.
@@ -97,23 +97,22 @@ const Plant = (props) => {
  
  function handleOnClick = () => {
  
-        this.setState({
-				     health: "dead"
-					})
- 
+ this.setState({
+	health: "dead"
+	})
  }
  
-      return(
-		      <div>
-					    <h1>{this.props.name}</h1>
-							<p>
-							        Water: {this.props.water}
-							        Light: {this.props.light}
-							        Difficulty: {this.props.difficulty} 
-							</p>
-							<button onClick={this.handleOnClick}>I've Given Up</button>
-				)
-	}
+  return(
+	 <div>
+	 <h1>{this.props.name}</h1>
+	 <p>
+		Water: {this.props.water}
+		Light: {this.props.light}
+		Difficulty: {this.props.difficulty} 
+	 </p>
+	 <button onClick={this.handleOnClick}>I've Given Up</button>
+  )
+ }
 
 ```
 
