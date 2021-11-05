@@ -1,5 +1,4 @@
-## Mikelanne Wood
-### Full-Stack Web Developer
+## Full-Stack Web Developer
 
 I am a Full Stack Developer with experience using frontend and backend technologies such as Ruby, Rails, Node, JavaScript, and React. My 10 years in customer service have taught me how to work effectively on a team, how to create relationships with co-workers and clients alike to promote sales, productivity, and loyalty. I am motivated to achieve my goals, I have a strong work ethic, and I am incredibly organized. I have skills in critical-thinking and communication, both written and verbal, as displayed by my English degree. I am a problem solver who does not shy away from a challenge.
 
