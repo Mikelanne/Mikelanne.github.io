@@ -6,6 +6,10 @@ Working in the resturaunt industry, especially in Walt Disney World and Universa
 
 While working in the resturaunt industry, I became interested in web development because of the Point of Sales systems we use. I was always brainstorming ways to improve producivity for the font of house staff as well as the back of house. I wanted to make these systems easier to use for everyone. The less time spent at the computers, the more time there is to spend with the guest. In March of 2020, I started teaching myself how to code and fell in love with it. Web development allows me to combine creativity with problem solving skills. As Walt Disney once said, "It's kind of fun to do the impossible," and thats how I feel when I'm building an app.
 
+
+![](bio.jpg)
+
+
 <!-- ## <button>[Resume]</button>
 ## <button>Blog</button>
 ## <button>GitHub</button> -->
