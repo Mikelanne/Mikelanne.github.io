@@ -20,6 +20,8 @@ background-image:linear-gradient(120deg,#e6eeff,#4d88ff);
 
 button{
   color: #0044cc;
-  text-align: center;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
 }
 
